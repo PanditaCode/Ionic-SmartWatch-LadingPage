@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@700&family=Ubuntu&display=swap');
+
+
+/* Estilos Generales*/
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Estilos del cuerpo*/
+body {
+    background: #000000;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Estilos del navbar*/
+a {
+    cursor: pointer;
+}
+
+/* Estilos del border-box*/
+#container {
+    height: 600px;
+    width: 1000px;
+    margin: 15% auto;
+    position: relative;
+    box-shadow: 4px 10px 20px rgb(215, 214, 221);
+}
+
+/* Estilos del border-box*/
+#background {
+    position: fixed;
+    bottom: 0px;
+    right: 50px;
+    width: 50%;
+    height: 100%;
+    background: #008eaa;
+    clip-path: polygon(52% 0%, 100% 0%, 100% 100%, 0% 100%);
+    z-index: -1;
+
+}
+
+/* Estilos del navbar*/
+nav {
+    display: block;
+    float: right;
+    margin: 1em;
+    margin-top: 1.4em;
+    font-size: 15px;
+    font-family: 'Sora', sans-serif;
+
+}
+
+/* Estilos del navbar*/
+.navbar a {
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 50px;
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    color: #ffffff;
+    padding: 20px 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Estilos del navbar*/
+.navbar a:hover {
+    background: #005387;
+    margin-top: 30px;
+    padding: 15px;
+    border-radius: 50px;
+    transition: all 0.5s ease;
+    color: #000000;
+    border-bottom-style: initial;
+}
+
+/* Estilos del navbar*/
+.navbar a:last-child {
+    background: #005387;
+    color: white;
+    padding: 15px;
+    border-radius: 50px;
+    transition: all 0.5s ease;
+    border-bottom-style: initial;
+
+}
+
+/* Estilos del navbar*/
+.section {
+    margin-left: 10%;
+    width: 40%;
+    height: 50%;
+}
+
+/* Estilos del navbar*/
+.button {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* Estilos del navbar*/
+.button:hover {
+    transform: scale (1.1);
+    transition: all 1s ease;
+}
+
+/* Estilos del titulo principal*/
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    color: #05cc47;
+    text-transform: uppercase;
+    font-size: 4.0em;
+    padding: 10%;
+    width: 100%;
+}
+
+/* Estilos del titulo principal*/
+#title {
+    transition: all 1s ease;
+}
+
+/* Estilos del titulo secundario*/
+h2 {
+    font-size: 2.7em;
+    text-transform: capitalize;
+    margin-top: 10px;
+    letter-spacing: 2px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #00aaff;
+}
+
+/* Estilos del parrafo*/
+p {
+    font-size: 0.8em;
+    letter-spacing: 2px;
+    display: inline-block;
+    text-transform: lowercase;
+    color: #404041;
+    position: relative;
+    margin-top: 480px;
+    font-family: 'Ubuntu', sans-serif;
+    left: 70%;
+    z-index: -1;
+}
+
+
+.desc {
+    position: absolute;
+    top: 100%;
+    font-size: 10px;
+    text-transform: lowercase;
+}
+
+/* Estilos del titulo 90grados*/
+.look {
+    position: relative;
+    color: #05cc47;
+    opacity: 0.7;
+    top: 73%;
+    margin-left: 40%;
+    width: 300%;
+    font-size: 3.7em;
+    white-space: nowrap;
+    transform: rotate(90deg);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Estilos del titulo secundario*/
+.highlight {
+    color: #005387;
+    font-size: 0.7em;
+    width: 100%;
+}
+
+/* Estilos de margenes*/
+.margin-top {
+    margin-top: 135px;
+}
+
+
+.less.margin {
+    margin-top: 10px;
+    font-size: 30px;
+
+}
+
+/* Estilos del la imagen*/
+.alta {
+    height: 400px;
+    position: absolute;
+    top: 60px;
+    right: 370px;
+    z-index: -1;
+}
+
+
+.alta img {
+    height: 490px;
+    position: absolute;
+    margin-left: 50%;
+    padding: 0px;
+    z-index: -1;
+}
+
+
+#alta img {
+    transition: all 1s ease;
+}
+
+/* Estilos derechos de autor*/
+h5 {
+    z-index: -1;
+    width: 100%;
+    margin-left: 100%;
+    margin-top: 14px;
+    color: #ffffff;
+}
